@@ -1,0 +1,9 @@
+[deps]
+CVRPSEP = "49b9cb24-3b24-4683-85fc-5390c403e40a"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+GraphsFlows = "06909019-6f44-4949-96fc-b9d9aaa02889"
+Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+TimeDependentFunctions = "e2ae1964-b054-4566-b7bf-cff42dcfe62e"
