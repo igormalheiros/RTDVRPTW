@@ -67,9 +67,6 @@ function RCC(cvrpsep_data::CVRPSEPData, model::Model, data::Data)
         max_n_cuts = cvrpsep_data.max_n_cuts,
     )
 
-    # @show S, RHS
-    # readline()
-
     for (s_idx, s) in enumerate(S)
         rhs = RHS[s_idx]
         cut = @build_constraint(

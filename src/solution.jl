@@ -242,8 +242,7 @@ function Base.show(io::IO, solution::Solution)
     for r = 1:n_routes
         route = routes[r]
         print(io, "Route ", r, " (", Q, "): ")
-        for i = 1:length(route)
-            node = route[i]
+        for node in route
             load_str = @sprintf("%.2f", node.load)
             arrival_str = @sprintf("%.2f", node.arrival)
             e_str = @sprintf("%.2f", e[node.id])

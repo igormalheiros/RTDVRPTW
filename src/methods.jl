@@ -163,11 +163,11 @@ function solve_CF(model::Model, data::Data, Γ::Int, start_solution::Union{Solut
     model_info = ModelInfo(
         "",
         0,
-        0,
-        0,
-        0,
-        0, # Gap root
-        0, # Runtime root
+        0.0,
+        0.0,
+        0.0,
+        0.0, # Gap root
+        0.0, # Runtime root
         MOI.get(model, MOI.NodeCount()), # Tree size
         n_rcc_cuts, # RCC cuts
         0, # Tournament cuts
@@ -224,11 +224,11 @@ function solve_TIF(
     model_info = ModelInfo(
         "",
         0,
-        0,
-        0,
-        0,
-        0, # Gap root
-        0, # Runtime root
+        0.0,
+        0.0,
+        0.0,
+        0.0, # Gap root
+        0.0, # Runtime root
         MOI.get(model, MOI.NodeCount()), # Tree size
         n_rcc_cuts, # RCC cuts
         n_ti_cuts, # Tournament cuts
@@ -326,11 +326,11 @@ function solve_CRG(
     model_info = ModelInfo(
         "",
         0,
-        0,
-        0,
-        0,
-        0, # Gap root
-        0, # Runtime root
+        0.0,
+        0.0,
+        0.0,
+        0.0, # Gap root
+        0.0, # Runtime root
         MOI.get(model, MOI.NodeCount()), # Tree size
         n_rcc_cuts, # RCC cuts
         0, # Tournament cuts
