@@ -59,9 +59,7 @@ python scripts/tables/separatetables.py           # -> data/results/derived/benc
 julia --project=. scripts/tables/profiling.jl      # -> data/results/tables/performance_profile_tikz.tex
 ```
 
-`script.jl` requires a licensed [Gurobi](https://www.gurobi.com/) installation. The ILS
-heuristic that produced `data/heuristic_solutions/` and `data/results/raw/benchmark_results_ILS.csv`
-is not part of this repository; only its inputs/outputs are included.
+`script.jl` requires a licensed [Gurobi](https://www.gurobi.com/) installation. The ILS heuristic that produced `data/heuristic_solutions/` and `data/results/raw/benchmark_results_ILS.csv` is not part of this repository.
 
 ## License
 
