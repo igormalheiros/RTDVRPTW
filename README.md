@@ -53,9 +53,9 @@ data/
 
 ```
 julia --project=. script.jl                       # regenerate data/results/raw/benchmark_results_CF.csv
-python3 scripts/preprocess_latex_tables.py         # -> data/results/tables/preprocess_table.tex
-python3 scripts/tables/mergecsv.py                 # -> data/results/derived/benchmark_results_all.csv
-python3 scripts/tables/separatetables.py           # -> data/results/derived/benchmark_exact_aggragate.csv
+python scripts/preprocess_latex_tables.py         # -> data/results/tables/preprocess_table.tex
+python scripts/tables/mergecsv.py                 # -> data/results/derived/benchmark_results_all.csv
+python scripts/tables/separatetables.py           # -> data/results/derived/benchmark_exact_aggragate.csv
 julia --project=. scripts/tables/profiling.jl      # -> data/results/tables/performance_profile_tikz.tex
 ```
 
